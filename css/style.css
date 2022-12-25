@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container{
+    display: grid;
+}
+
+.grid-elem{
+    height: 50px;
+    background-color: #315f06;
+
+    color:#FFFF;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
