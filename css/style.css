@@ -6,14 +6,10 @@
 
 .grid-container{
     display: grid;
-    /* колонки */
-    grid-template-columns: 200px 200px 200px;
-    /* строки */
-    grid-template-rows: 60px 60px 60px;
-    /* разрывы между колонками */
-    column-gap: 20px;
-    /* разрывы между строками */
-    row-gap: 20px;
+    /* строки / колонки*/
+    grid-template: 60px 60px 60px / 200px 200px 200px;
+    /* разрывы между строками колонками */
+    gap: 20px;
 }
 
 .grid-elem{
