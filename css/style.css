@@ -5,15 +5,21 @@
 }
 
 .grid-container{
+    width: 600px;
+    height: 600px;
+
     display: grid;
-    /* строки / колонки*/
-    grid-template: 60px 60px 60px / 200px 200px 200px;
+    /* колонки*/
+    grid-template-columns: 1fr 1fr 1fr;
+    /* строки */
+    grid-template-rows: 1fr 1fr 1fr;
+    
     /* разрывы между строками колонками */
     gap: 20px;
 }
 
 .grid-elem{
-    height: 50px;
+    /* height: 50px; */
     background-color: #315f06;
 
     color:#FFFF;
