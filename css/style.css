@@ -10,9 +10,10 @@
 
     display: grid;
     /* колонки*/
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     /* строки */
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    grid-auto-rows: 200px;
     
     /* разрывы между строками колонками */
     gap: 20px;
