@@ -5,16 +5,15 @@
 }
 
 .grid-container{
-    width: 600px;
-    height: 600px;
-
     display: grid;
     /* колонки*/
     // grid-template-columns: repeat(3, 1fr);
-    grid-template-columns: repeat(3, minmax(100px, 300px));
+    // grid-template-columns: repeat(3, minmax(100, auto));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
+
     /* строки */
-    grid-template-rows: repeat(3, minmax(100px auto));
-    grid-auto-rows: minmax(100px auto);
+    grid-template-rows: repeat(3, minmax(100px, auto));
+    grid-auto-rows: minmax(100px, auto);
     
     /* разрывы между строками колонками */
     gap: 20px;
