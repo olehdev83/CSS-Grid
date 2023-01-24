@@ -9,7 +9,9 @@
     /* колонки*/
     // grid-template-columns: repeat(3, 1fr);
     // grid-template-columns: repeat(3, minmax(100, auto));
-    grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
+    // grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
 
     /* строки */
     grid-template-rows: repeat(3, minmax(100px, auto));
