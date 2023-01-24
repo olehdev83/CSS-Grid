@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container{
+    width: 600px;
+    height: 600px;
+
+    display: grid;
+    /* колонки*/
+    // grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(100px, 300px));
+    /* строки */
+    grid-template-rows: repeat(3, minmax(100px auto));
+    grid-auto-rows: minmax(100px auto);
+    
+    /* разрывы между строками колонками */
+    gap: 20px;
+}
+
+.grid-elem{
+     /* height: 50px; */
+    background-color: #315f06;
+
+     color:#FFFF;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
