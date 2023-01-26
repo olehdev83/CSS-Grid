@@ -38,20 +38,21 @@
 /* End Выравнивание грид ( строковая ось) */
 
 /* Комбинированные свойства (колоночная ось) */
-    place-content: justify-content + align-content;
+    // place-content: justify-content + align-content;
+    place-items: justify-items +  align-items;
 /* EndКомбинированные свойства (колоночная ось) */
 
 /* Выравнивание елементов (колоночная ось) */
 
     // align-items: start;
-    // align-items: center;
+    align-items: center;
     // align-items: end;
 
 /* End Выравнивание елементов (колоночная ось) */
 
 /* Выравнивание елементов (строковая ось) */
 
-    // justify-items: center;
+    justify-items: center;
 
 }
 
