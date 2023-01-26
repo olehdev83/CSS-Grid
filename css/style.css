@@ -17,23 +17,14 @@
   /* разрывы между строками колонками */
   gap: 10px;
   /* Выравнивание грид (колоночная ось) */
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   /* End Выравнивание грид (колоночная ось) */
   /* Выравнивание грид ( строковая ось) */
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
   /* End Выравнивание грид ( строковая ось) */
   /* Комбинированные свойства (колоночная ось) */
-  place-items: justify-itemsalign-items;
   /* EndКомбинированные свойства (колоночная ось) */
   /* Выравнивание елементов (колоночная ось) */
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   /* End Выравнивание елементов (колоночная ось) */
   /* Выравнивание елементов (строковая ось) */
-  justify-items: center;
 }
 
 .grid-elem {
@@ -52,7 +43,14 @@
      grid-column-end: 3;
      grid-column: 1/3; */
   /* Выравнивание елемента (колоночна ось) */
+  -ms-flex-item-align: center;
+      align-self: center;
   /* Выравнивание елемента (строчная ось) */
+  justify-self: center;
+  /* End Выравнивание елемента (строчная ось) */
+  /* Комбинированные свойств елементов */
+  place-self: justify-selfalign-self;
+  /* End Комбинированные свойств елементов */
 }
 
 /*#second{

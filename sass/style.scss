@@ -24,7 +24,7 @@
 /* Выравнивание грид (колоночная ось) */
     // justify-content: center;
     // justify-content: space-between;
-    justify-content: space-around;
+    // justify-content: space-around;
 
 /* End Выравнивание грид (колоночная ось) */
 
@@ -33,26 +33,26 @@
     // align-content: center;
     // align-content: space-between;
     
-    align-content:space-around;
+    // align-content:space-around;
 
 /* End Выравнивание грид ( строковая ось) */
 
 /* Комбинированные свойства (колоночная ось) */
     // place-content: justify-content + align-content;
-    place-items: justify-items +  align-items;
+    // place-items: justify-items +  align-items;
 /* EndКомбинированные свойства (колоночная ось) */
 
 /* Выравнивание елементов (колоночная ось) */
 
     // align-items: start;
-    align-items: center;
+    // align-items: center;
     // align-items: end;
 
 /* End Выравнивание елементов (колоночная ось) */
 
 /* Выравнивание елементов (строковая ось) */
 
-    justify-items: center;
+    // justify-items: center;
 
 }
 
@@ -77,11 +77,17 @@
 
     // align-self: start;
     // align-self: end;
-    // align-self: center;
+    align-self: center;
 
 /* Выравнивание елемента (строчная ось) */
 
-    // justify-self: center;
+    justify-self: center;
+
+/* End Выравнивание елемента (строчная ось) */
+
+    /* Комбинированные свойств елементов */
+    place-self: justify-self + align-self;
+    /* End Комбинированные свойств елементов */
 
 }
 
