@@ -5,6 +5,7 @@
 }
 
 .grid-container{
+    //height: 1000px;
     display: grid;
     /* колонки*/
     // grid-template-columns: repeat(3, 1fr);
@@ -23,7 +24,7 @@
 /* Выравнивание грид (колоночная ось) */
     // justify-content: center;
     // justify-content: space-between;
-    // justify-content: space-around;
+    justify-content: space-around;
 
 /* End Выравнивание грид (колоночная ось) */
 
@@ -31,9 +32,14 @@
 
     // align-content: center;
     // align-content: space-between;
-    // align-content:space-around;
+    
+    align-content:space-around;
 
 /* End Выравнивание грид ( строковая ось) */
+
+/* Комбинированные свойства (колоночная ось) */
+    place-content: justify-content + align-content;
+/* EndКомбинированные свойства (колоночная ось) */
 
 /* Выравнивание елементов (колоночная ось) */
 
