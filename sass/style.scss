@@ -33,17 +33,21 @@
 }
 
 #header{
-
+    // Задаем имя елементу через grid-area
+    grid-area: header;
 }
 
 #blog{
-
+    // Задаем имя елементу через grid-area
+    grid-area: blog;
 }
 
 #masseges{
-
+    // Задаем имя елементу через grid-area
+    grid-area: masseges;
 }
 
 #footer{
-    
+    // Задаем имя елементу через grid-area
+    grid-area: footer;
 }

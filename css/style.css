@@ -26,4 +26,20 @@
   line-height: 50px;
   border: 1px solid #000;
   border-radius: 4px;
+}
+
+#header {
+  grid-area: header;
+}
+
+#blog {
+  grid-area: blog;
+}
+
+#masseges {
+  grid-area: masseges;
+}
+
+#footer {
+  grid-area: footer;
 }/*# sourceMappingURL=style.css.map */
