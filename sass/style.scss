@@ -27,18 +27,6 @@
 
 /* разрывы между строками колонками */
     gap:10px;
-
-}
-
-.grid-elem{
-    /* height: 50px; */
-    background-color:#315f06;
-    color:#FFFF;
-    font-size: 20px;
-    text-align: center;
-    line-height: 50px;
-    border: 1px solid #000;
-    border-radius: 4px;
 }
 
 #header{
@@ -55,8 +43,25 @@
     // Задаем имя елементу через grid-area
     grid-area: masseges;
 }
-
 #footer{
     // Задаем имя елементу через grid-area
     grid-area: footer;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+}
+
+.grid-elem{
+    /* height: 50px; */
+    background-color:#315f06;
+    color:#FFFF;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.orange{
+    background: #ffa500;
 }
