@@ -17,11 +17,11 @@
     grid-auto-rows: minmax(100px, auto);
     grid-template-areas: 
     /* "header header header"
-    "blog blog masseges"
+    "blog blog message"
     "footer footer footer"; */
 
-    "header header masseges"
-    "blog blog masseges"
+    "header header message"
+    "blog blog message"
     "footer footer footer";
 
 
@@ -39,9 +39,9 @@
     grid-area: blog;
 }
 
-#masseges{
+#message{
     // Задаем имя елементу через grid-area
-    grid-area: masseges;
+    grid-area: message;
 }
 #footer{
     // Задаем имя елементу через grid-area
@@ -64,4 +64,18 @@
 
 .orange{
     background: #ffa500;
+}
+
+//Адаптация гридов
+@media(max-width: 768px){
+    .grid-container{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, minmax(100px auto));
+        grid-template-areas: 
+        "header header"
+        "blog blog"
+        "message message"
+        "footer footer"
+        ;
+    }
 }
